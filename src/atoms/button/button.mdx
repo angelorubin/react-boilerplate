@@ -1,0 +1,52 @@
+---
+name: Button
+root: /
+---
+
+import {Playground, PropsTable} from 'docz'
+import Button from './'
+
+# Button
+
+## Basic Usage
+
+<Playground>
+    <Button>Button</Button>
+</Playground>
+
+## Types
+
+<Playground>
+    <Button type={'primary'}>Button</Button>
+    <Button type={'success'}>Button</Button>
+    <Button type={'danger'}>Button</Button>
+    <Button type={'warning'}>Button</Button>
+</Playground>
+
+## Sizes
+
+<Playground>
+    <Button size={'xs'}>Button</Button>
+    <Button size={'sm'}>Button</Button>
+    <Button size={'md'}>Button</Button>
+    <Button size={'lg'}>Button</Button>
+</Playground>
+
+## Round
+
+<Playground>
+    <Button round type={'primary'}>Button</Button>
+    <Button round type={'success'}>Button</Button>
+</Playground>
+
+## Colors
+
+<Playground>
+    <Button color={'#509c87'}>Button</Button>
+    <Button color={'blue'}>Button</Button>
+    <Button color={'red'}>Button</Button>
+</Playground>
+
+# Properties
+
+<PropsTable of={Button} />
