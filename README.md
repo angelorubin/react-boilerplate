@@ -1,9 +1,6 @@
 # React Boilerplate
-___
 
 A simple boilerplate with just enough to help you quickly start your projects with React.
-
----
 
 # Technologies Used
 
@@ -24,19 +21,19 @@ Before proceeding, it is necessary to install the project dependencies, open the
 
 `npm i`
 
-# Running Webpack Dev Server
+# Running the Local Server
 
 To run a local server with Webpack Dev Server, open the console and type:
 
 `npm run dev`
 
-# Docz Dev
+# Running Docz
 
 Documenting software is not an easy task, docz helps you keep your project documentation easy and organized.
 
 To get docz up and running and see an example, just open the console and enter the following command:
 
-`npm run docz: dev`
+`npm run docz:dev`
 
 After running a link will be generated on your console, copy and paste this code into your browser to see an example of a working button.
 
